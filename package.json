@@ -4,7 +4,7 @@
   "description": "Declarative tools for generating CSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ."
   },
   "keywords": [
     "css",
@@ -14,5 +14,13 @@
     "utility"
   ],
   "author": "Mark Bello",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.4",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0"
+  }
 }

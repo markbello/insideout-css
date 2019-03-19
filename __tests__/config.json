@@ -1,0 +1,23 @@
+{
+  "font-family": {
+    "'Montserrat', helvetica, sans-serif": [
+        "html",
+        "h3 a",
+        "div.class"
+      ]
+    ,
+    "'Inconsolata', monospace": [
+        "pre"
+      ]
+  },
+  "font-weight": {
+    "100": [
+        "html",
+        "div.class"
+      ]
+    ,
+    "300": [
+        "h3 a"
+      ]
+  }
+}

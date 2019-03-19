@@ -4,38 +4,32 @@ Declarative tools for generating CSS.
 
 ##About
 
-This tool allows developers to configure CSS by attributes, specifying an array of selectors to receive them. 
+This tool allows developers to configure CSS by attributes, specifying an array of selectors to receive them.
 
 ###Example Input
 
 ```js
 const config = {
   "font-family": {
-    "'Montserrat', helvetica, sans-serif": {
-      elements: [
+    "'Montserrat', helvetica, sans-serif": [
         'html',
         'h3 a',
         'div.class'
       ],
-    },
-    "'Inconsolata', monospace": {
-      elements: [
+    ,
+    "'Inconsolata', monospace": [
         'pre'
       ],
-    },
+    ,
   },
   "font-weight": {
-    300: {
-      elements: [
+    300: [
         'h3 a',
-      ],
-    },
-    100: {
-      elements: [
+    ],
+    100: [
         'html',
         'div.class'
-      ]
-    }
+    ]
   }
 };
 ```
